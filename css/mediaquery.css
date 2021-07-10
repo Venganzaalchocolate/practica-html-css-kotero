@@ -1,0 +1,114 @@
+@media screen and (max-width:1300px){
+    .tags>ul{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .tags>ul>li{
+        margin-top: 3px;
+    }
+
+
+@media screen and (max-width:1080px) {
+
+/*main*/
+
+    .item.main{
+        display: flex;
+        align-items: flex-end;
+        margin: 0%;
+        text-align: center;
+
+    }
+    .fondo.main{
+        width: 100%;
+        height: 40%;
+        background: linear-gradient(to top, rgba(7,7,36,1) 0%, rgba(7,7,36,0.61) 39%, rgba(7,7,36,0.31) 69%, rgba(0,0,0,0) 100%);
+    }
+
+    .info.main{
+        width: 100%;
+        justify-content: flex-end;
+    }
+
+    .info.main>h3{
+        margin-bottom: 5%;
+    }
+
+    .info.main>p{
+        display: none;
+    }
+
+/*nav*/
+
+    .item.nav>ul.generos{
+        display: none;
+    }
+
+/*section*/
+
+    .section {
+        grid-area: section;
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+        grid-auto-columns: auto;
+        grid-auto-rows: auto;
+    }
+
+    .item.titulo{
+        padding-left: 1%;
+    }
+
+    .article{
+        grid-template-rows: 50px minmax(150px, 1fr) minmax(150px, 1fr);
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: 
+        "titulo titulo"
+        "uno dos"
+        "tres cuatro";
+    }
+
+    .article>.tres, .article>.cuatro{
+        margin-top: 5px;
+        margin-bottom: 10px;
+    }
+
+    .contenedor.login{
+    display: flex;
+    flex-direction: column;
+    justify-content: center
+    }
+
+    .texto-login, .texto-error {
+        justify-content: center;
+        text-align: center;
+    }
+
+    .imagen-unicornio {
+        justify-content: center;
+    }
+
+    .imagen-unicornio > img {
+        width: 40%;
+    }
+
+    .pie-login {
+        justify-content: space-around;
+    }
+
+    .contenedor-texto{
+        display: flex;
+        justify-content: center;
+    }
+
+
+    .item.footer>ul{
+        display: block;
+        text-align: center;
+    }
+
+    .item.footer>ul>li{
+        display: block;
+        text-align: center;
+    }
+

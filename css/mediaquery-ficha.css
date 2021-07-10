@@ -1,0 +1,21 @@
+@media screen and (max-width:1080px){
+    .section {
+        grid-area: section;
+        display: grid;
+        grid-template-rows: 1fr;
+        grid-auto-columns: auto;
+        grid-auto-rows: auto;
+    }
+
+    #video{
+        width: 90%
+    }
+
+    .contenedor-ficha{
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+        "texto-ficha"
+        "lista-ficha";
+    }
+
+}

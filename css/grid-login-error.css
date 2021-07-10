@@ -1,0 +1,72 @@
+.contenedor.login{
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 1fr 1fr;
+}
+
+.imagen-unicornio, .texto-login, .texto-error{
+    display: flex;
+    width: 100%;
+}
+
+.imagen-unicornio{
+    justify-content: right;
+}
+
+.texto-login{
+    justify-content: left;
+}
+
+.imagen-unicornio>img{
+    width: 70%;
+}
+
+.loginform, .texto-error{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 400px;
+}
+
+.texto-error{
+    text-align: center;
+    line-height: 30pt;
+}
+
+.texto-error>h1{
+    font-size: 300%;
+    margin-bottom: 5%;
+}
+
+.loginform>input, .loginform>button, .texto-error>button{
+    height: 50px;
+    margin: 2%;
+    background-color: rgb(255,115,115);
+    border-radius: 40px 40px 40px 40px;
+    text-align: center;
+    font-size: 15pt;
+}
+
+.loginform>h1{
+    margin-bottom: 3%;
+
+}
+
+.loginform>button{
+    background-color: rgb(171,90,82);
+}
+
+.loginform>button>a{
+    width: 100%;
+}
+
+.pie-login{
+    margin-top: 2%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contenedor-texto{
+    display: flex;
+    align-content: center;
+}

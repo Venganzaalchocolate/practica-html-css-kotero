@@ -1,0 +1,58 @@
+
+.item.main {
+    background-image:url("../img/madoka_bn.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.video.main{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+#video{
+    display: flex;
+    width: 65%;
+    height: auto;
+    justify-content: center;
+}
+
+#video>video{
+    width: inherit;
+}
+
+.texto-ficha, .lista-ficha{
+    display: flex;
+    justify-content: center;
+}
+
+.contenedor-textos, .contenedor-lista{
+    width: 100%;
+    padding-top: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin-bottom: 2rem;
+
+}
+
+.contenedor-textos>h1{
+    line-height: 20pt;
+}
+
+.contenedor-textos>h3{
+    margin-bottom: 2rem;
+}
+
+.contenedor-textos>p{
+    line-height: 15pt;
+}
+
+
+.contenedor-texto>h1{
+    font-size: 36pt;
+}
+

@@ -1,0 +1,242 @@
+
+
+.article>.uno, .article>.dos, .article>.tres, .article>.cuatro{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 1%;
+    position: relative
+}
+
+.invisible{
+    display: none;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    background-color:  rgba(0, 0, 0, 0.75);
+    width: inherit;
+    
+    font-weight: normal;
+    height: 100%;
+    overflow:scroll;
+    z-index: 10;
+    
+}
+
+
+.invisible>.texto{
+    max-width: 75%;
+    max-height: 80%;
+    font-size: 9pt;
+    line-height: 12pt;
+}
+
+.item.titulo>h1{
+    font-size: 22pt;
+}
+
+.h1.genero, .tag-li{
+    color: rgb(255,115,115) ;
+}
+
+.japones{
+    font-family: 'Noto Sans JP', sans-serif;
+    color: rgb(250,179,72); 
+    font-weight: normal;
+}
+
+.invisible>.texto>div>.titulo{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2%;
+}
+
+input[type="checkbox"] {
+    display: none
+}
+
+.seguir, .ficha{
+    position:absolute;
+    top: 5%;
+    left: 76%;
+    margin-left: 5%;
+    width: 20px;
+    height: 20px;
+    z-index: 700;
+}
+
+.ficha{
+    top:20%
+}
+
+.ficha>button{
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    font-size: 12pt;
+    text-align: center;
+}
+
+.ficha>button>a{
+    display: block;
+}
+
+.btn-estrellas{
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-image: url("../img/estrella-vacia.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.seguir>input[type="checkbox"]:checked + label {
+    background-image: url("../img/estrella-llena.svg");
+}
+
+.texto>p {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.tags>ul{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 3%;
+}
+
+
+.tags>ul>li{
+    font-size: 8pt;
+    font-weight: bold;
+    font-family: 'Monserrat', sans-serif;
+    background-color: rgb(85, 46, 42);
+    padding-top: 1%;
+    padding-left: 3%;
+    padding-bottom: 1%;
+    padding-right: 3%;
+    border-radius: 40px 40px 40px 40px;
+    text-decoration: none;
+}
+
+.item:hover>.invisible{
+    display: flex;
+}
+
+
+
+.titulo.shojo~.uno{
+    background-image:url("../img/Kamisama.jpg");
+}
+
+.titulo.shojo~.dos{
+    background-image:url("../img/Fruits-Basket.jpg");
+}
+
+.titulo.shojo~.tres{
+    background-image:url("../img/aaaa.jpg");
+}
+
+.titulo.shojo~.cuatro{
+    background-image:url("../img/mermelade.jpg");
+}
+
+.titulo.seinen~.uno{
+    background-image:url("../img/shell.jpg");
+}
+
+.titulo.seinen~.dos{
+    background-image:url("../img/ph.jpg");
+}
+
+.titulo.seinen~.tres{
+    background-image:url("../img/ful.jpg");
+}
+
+.titulo.seinen~.cuatro{
+    background-image:url("../img/death.jpg");
+}
+
+.titulo.kodemo~.uno{
+    background-image:url("../img/shell.jpg");
+}
+
+.titulo.kodemo~.dos{
+    background-image:url("../img/shell.jpg");
+}
+
+.titulo.kodemo~.tres{
+    background-image:url("../img/shell.jpg");
+}
+
+.titulo.kodemo~.cuatro{
+    background-image:url("../img/shell.jpg");
+}
+
+.titulo.shounen~.uno{
+    background-image:url("../img/shell.jpg");
+}
+
+.titulo.shounen~.dos{
+    background-image:url("../img/shell.jpg");
+}
+
+.titulo.shounen~.tres{
+    background-image:url("../img/shell.jpg");
+}
+
+.titulo.shounen~.cuatro{
+    background-image:url("../img/shell.jpg");
+}
+
+.titulo.josei~.uno{
+    background-image:url("../img/shell.jpg");
+}
+
+.titulo.josei~.dos{
+    background-image:url("../img/shell.jpg");
+}
+
+.titulo.josei~.tres{
+    background-image:url("../img/shell.jpg");
+}
+
+.titulo.josei~.cuatro{
+    background-image:url("../img/shell.jpg");
+}
+
+
+
+
+
+
+
+
+.invisible::-webkit-scrollbar {
+    -webkit-appearance: none;
+}
+
+.invisible::-webkit-scrollbar:vertical {
+    width:10px;
+}
+
+.invisible::-webkit-scrollbar-button:increment,.contenedor::-webkit-scrollbar-button {
+    display: none;
+} 
+
+.invisible::-webkit-scrollbar:horizontal {
+    height: 10px;
+}
+
+.invisible::-webkit-scrollbar-thumb {
+    background-color: rgb(85, 46, 42, 0.5);
+    border-radius: 20px;
+    border: 2px solid rgb(255,115,115, 0.5) ;
+}
+
+.invisible::-webkit-scrollbar-track {
+    border-radius: 10px;  
+}
+
+
+

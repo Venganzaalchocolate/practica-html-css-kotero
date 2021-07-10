@@ -1,0 +1,19 @@
+.item.footer{
+    display: block;
+    font-size: 10pt;
+}
+
+.item.footer>ul{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer{
+    display: inline-flex;
+    margin-bottom: 2%;
+}
+
+.footer>a{
+    color: rgb(40, 88, 192);
+}
