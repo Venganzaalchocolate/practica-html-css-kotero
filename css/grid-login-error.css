@@ -10,7 +10,8 @@
 }
 
 .imagen-unicornio{
-    justify-content: right;
+    display: flex;
+    justify-content: flex-end;
 }
 
 .texto-login{
@@ -41,7 +42,7 @@
 .loginform>input, .loginform>button, .texto-error>button{
     height: 50px;
     margin: 2%;
-    background-color: rgb(255,115,115);
+    background-color: var(--rosa-palido);
     border-radius: 40px 40px 40px 40px;
     text-align: center;
     font-size: 15pt;

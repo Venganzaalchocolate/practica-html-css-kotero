@@ -1,6 +1,7 @@
 header.header{
     position: fixed;
     display: inline-flex;
+    align-items: center;
     justify-content: space-between;
     width: 100%;
     height: 3rem;
@@ -27,6 +28,32 @@ header.header{
     padding-left: 5%;
 }
 
+#buscar{
+    display: inline-flex;
+    justify-content: center;
+    width: 100%;
+    height: 1rem;
+    align-items: center;
+}
+
+.search{
+    padding: 3px;
+    background-color: var(--rojo-oscuro);
+    border-radius: 10px 10px 10px 10px;
+    border: none;
+    height: auto;
+}
+
+.submit{
+    margin-left: 1rem;
+    border: none;
+    border-radius: 10px 10px 10px 10px;
+    background-color: white;
+    color: var(--rosa-palido);
+    text-align: center;
+    font-size: 12pt;
+    width: 70px;
+}
 
 .item.nav{
     width: 60%;
@@ -43,7 +70,8 @@ header.header{
 .boton-login, .burger-label{
     width: 70px;
     height: 30px;
-    background-color: rgb(255,115,115);
+    background-color: var(--rosa-palido);
+    border: none;
     border-radius: 10px 10px 10px 10px;
     text-align: center;
     font-size: 12pt;
@@ -54,7 +82,7 @@ header.header{
     display: flex;
     margin-left: 1rem;
     margin-right: 1rem;
-    background-color: rgb(255,115,115);
+    background-color: var(--rosa-palido);
     background-image: url("../img/boton-burger.svg");
     background-position: center;
     background-repeat: no-repeat;
@@ -85,7 +113,7 @@ header.header{
     height: 100%;
 }
 
-.navbar-list>li>a{
+.navbar-list>li>a, .navbar-list>li>form{
     display: flex;
     height: 100%;
     width: 100%;

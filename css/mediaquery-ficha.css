@@ -13,9 +13,11 @@
 
     .contenedor-ficha{
         grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
         grid-template-areas: 
         "texto-ficha"
-        "lista-ficha";
+        "lista-ficha"
+        "article";
     }
 
 }

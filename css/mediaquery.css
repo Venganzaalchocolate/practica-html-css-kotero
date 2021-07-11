@@ -112,3 +112,10 @@
         text-align: center;
     }
 
+    .item.titulo > h1 {
+        font-size: 16pt;
+    }
+
+    #buscar{
+        display: none;
+    }

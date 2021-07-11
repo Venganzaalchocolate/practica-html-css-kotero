@@ -56,3 +56,6 @@
     font-size: 36pt;
 }
 
+.article{
+    grid-area: article;
+}
